@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 2.5em;
+  animation: typing 3s steps(20) 1;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #000;
+  width: 20ch;
+  margin: auto;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 20ch }
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 20px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #000;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 3s; /* xuất hiện sau khi tên xong */
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<h1>Vũ Thùy Linh</h1>
+
+<div class="social-links">
+  <a href="https://www.facebook.com/linh.thuy.0806/" target="_blank">Facebook</a>
+  <a href="https://www.instagram.com/linhsay_hii/" target="_blank">Instagram</a>
+</div>
+
+</body>
+</html>
